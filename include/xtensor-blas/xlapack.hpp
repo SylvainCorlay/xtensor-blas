@@ -10,6 +10,8 @@
 #define XLAPACK_HPP
 
 #include <algorithm>
+#include <cstddef>
+#include <stdexcept>
 
 #include "xtl/xcomplex.hpp"
 
@@ -20,10 +22,10 @@
 #include "xtensor/xtensor.hpp"
 #include "xtensor/xutils.hpp"
 
-#include "cxxlapack/cxxlapack.cxx"
+#include "flens/cxxlapack/cxxlapack.cxx"
 
-#include "xtensor-blas/xblas_config.hpp"
-#include "xtensor-blas/xblas_utils.hpp"
+#include "xblas_config.hpp"
+#include "xblas_utils.hpp"
 
 namespace xt
 {

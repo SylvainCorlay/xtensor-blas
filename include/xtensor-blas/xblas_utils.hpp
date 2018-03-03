@@ -9,8 +9,13 @@
 #ifndef XBLAS_UTILS_HPP
 #define XBLAS_UTILS_HPP
 
-#include "cxxblas/typedefs.h"
+#include <stdexcept>
+#include <type_traits>
+#include <utility>
+
 #include "xtensor/xutils.hpp"
+
+#include "flens/cxxblas/typedefs.h"
 
 namespace xt
 {

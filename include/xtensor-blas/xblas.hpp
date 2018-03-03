@@ -9,18 +9,16 @@
 #ifndef XBLAS_HPP
 #define XBLAS_HPP
 
-#include <algorithm>
-
 #include "xtensor/xarray.hpp"
 #include "xtensor/xcomplex.hpp"
 #include "xtensor/xio.hpp"
 #include "xtensor/xtensor.hpp"
 #include "xtensor/xutils.hpp"
 
-#include "xtensor-blas/xblas_config.hpp"
-#include "xtensor-blas/xblas_utils.hpp"
+#include "flens/cxxblas/cxxblas.cxx"
 
-#include "cxxblas/cxxblas.cxx"
+#include "xblas_config.hpp"
+#include "xblas_utils.hpp"
 
 namespace xt
 {

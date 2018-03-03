@@ -11,7 +11,7 @@ project(xtensor-blas)
 
 set(INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/include)
 set(FLENS_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/include/xtensor-blas/flens)
-set(XTENSOR_BLAS_INCLUDE_DIR ${INCLUDE_DIR} ${FLENS_INCLUDE_DIR})
+set(XTENSOR_BLAS_INCLUDE_DIR ${INCLUDE_DIR})
 
 # Configuration
 # =============

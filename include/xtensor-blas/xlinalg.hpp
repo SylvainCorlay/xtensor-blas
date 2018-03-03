@@ -10,9 +10,10 @@
 #define XLINALG_HPP
 
 #include <algorithm>
+#include <chrono>
+#include <cstddef>
 #include <limits>
 #include <sstream>
-#include <chrono>
 
 #include "xtl/xcomplex.hpp"
 
@@ -24,9 +25,9 @@
 #include "xtensor/xtensor.hpp"
 #include "xtensor/xutils.hpp"
 
-#include "xtensor-blas/xblas.hpp"
-#include "xtensor-blas/xlapack.hpp"
-#include "xtensor-blas/xblas_utils.hpp"
+#include "xblas.hpp"
+#include "xblas_utils.hpp"
+#include "xlapack.hpp"
 
 namespace xt
 {
